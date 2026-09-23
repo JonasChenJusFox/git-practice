@@ -19,3 +19,7 @@ Another point that interests me is the possibility of reducing custom JavaScript
 ## Comment from Celia Liang
 
 I like the course planning example, users can start browsing while the slower, personalized parts are still on the way. It reminds me of a broader pattern in software, where work that once needed custom code in a framework gradually moves into a lower, more specialized layer like the browser itself. That usually means less code to maintain, but it also means trusting how that layer behaves across different environments. So I agree that checking compatibility and keeping a fallback matters. I would also be curious how this affects accessibility, for example whether screen readers handle content that gets swapped in after the page first loads.
+
+## Comment from Jason Wang
+
+I think your captured insight of moving responsibilities back to native browser capabilities rather than relying heavily on JavaScript frameworks is very interesting. Your example of the course planning website perfectly illustrates the user experience benefits. By utilizing out-of-order HTML streaming, developers can optimize performance substantially. Delivering the structural skeleton and static content first keeps the user engaged and prevents them from staring at a blank screen while the heavier, personalized data loads in the background. This directly improves core performance metrics like First Contentful Paint (FCP).
