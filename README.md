@@ -1,2 +1,15 @@
-# Git Practice
-A simple project to practice a few git/github workflows.  Replace the contents of this file with the contents indicated in the [instructions](./instructions.md).
+# Native HTML Streaming: My Thoughts
+
+**Author:** Jonas Chen ([JonasChenJusFox](https://github.com/JonasChenJusFox))
+
+## Article
+
+[Out-of-Order HTML Streaming Moves from JS Frameworks into the Browser](https://www.infoq.com/news/2026/09/native-deferred-html-streaming/)
+
+By Bruno Couriol, published on InfoQ on September 21, 2026.
+
+## Why I Find It Interesting
+
+I found this article interesting because it shows how browsers can take over work that JavaScript frameworks have handled. Out-of-order HTML streaming allows ready parts of a page to appear while slower sections are still loading. The browser can then replace placeholders when more content arrives. As a student learning web development, I like how this connects HTML, server responses, and user experience. For example, a course planning website could show basic course information first while waiting for personalized recommendations. I would find that more useful than waiting for everything to appear at once.
+
+Another point that interests me is the possibility of reducing custom JavaScript for updating page content. Native browser features could make some implementations easier to maintain. However, I would still check browser compatibility and provide a fallback before using this in a project, since the article distinguishes the declarative HTML features from JavaScript streaming APIs that are still being standardized. It makes me want to understand browser capabilities better when choosing tools for a web application.
